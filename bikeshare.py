@@ -78,7 +78,7 @@ def load_data(city, month, day):
     elif city is 'new york city':
  
     else:
-        print('Incorrect city name supplied')
+        print('wrong city name supplied')
  
     return df
  
@@ -117,7 +117,7 @@ def station_stats(df):
     # display most frequent combination of start station and end station trip
  
  
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds. WOWSERS" % (time.time() - start_time))
     print('-'*40)
  
  
