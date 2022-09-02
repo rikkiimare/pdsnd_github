@@ -54,7 +54,7 @@ def get_filters():
         print('No input taken!')
         break
     finally:
-        print('Thank you for the day')
+        print('Thank you for the day, those endless days....')
  
     print('-'*40)
     return city, month, day
@@ -166,7 +166,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
  
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? OMG what a decision... Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
  
